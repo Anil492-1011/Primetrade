@@ -9,7 +9,7 @@ export const ProfileCard = ({ user }) => {
     .map((n) => n[0])
     .join('')
     .slice(0, 2)
-    .toUpperCase();
+    .toUpperCase()
 
   return (
     <Card className="border-none bg-white/80">
