@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 7000;
  
   const corsOptions = {
-    origin: process.env.CLIENT_URL?.split(',') || ['http://localhost:5173'],
+    origin: process.env.CLIENT_URL?.split(','),
     credentials: true,
   };
 
